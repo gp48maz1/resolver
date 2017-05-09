@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SpinDin5</string>
+    <string name="resturant">SpinDin</string>
+    <string name="contact">Contact: </string>
+    <string name="address">Address: </string>
+    <string name="hours">Hours: </string>
+    <string name="about">About: </string>
+    <string name="contact_info">Call Us, 615\-615\-6155</string>
+    <string name="address_info">615 Franklin Pike Rd, Nashville TN 37204</string>
+    <string name="hours_info">9:00pm - 6:00am</string>
+    <string name="about_info">Our picture says it all</string>
+</resources>

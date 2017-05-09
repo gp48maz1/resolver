@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:text="@string/resturant"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/content_title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/title_name"
+        android:layout_marginTop="16sp"
+        android:text="@string/contact"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/content_main_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/content_title_text_view"
+        android:layout_below="@id/title_name"
+        android:layout_toEndOf="@id/content_title_text_view"
+        android:layout_toRightOf="@id/content_title_text_view"
+        android:layout_marginLeft="10sp"
+        android:layout_marginStart="10sp"
+        android:text="@string/contact_info"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/address_title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/content_title_text_view"
+        android:layout_marginTop="16sp"
+        android:text="@string/address"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/address_main_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/address_title_text_view"
+        android:layout_below="@id/content_title_text_view"
+        android:layout_toEndOf="@id/address_title_text_view"
+        android:layout_toRightOf="@id/address_title_text_view"
+        android:layout_marginLeft="10sp"
+        android:layout_marginStart="10sp"
+        android:text="@string/address_info"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/hours_title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/address_title_text_view"
+        android:layout_marginTop="16sp"
+        android:text="@string/hours"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/hours_main_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/hours_title_text_view"
+        android:layout_below="@id/address_title_text_view"
+        android:layout_toRightOf="@id/hours_title_text_view"
+        android:layout_toEndOf="@id/hours_title_text_view"
+        android:layout_marginLeft="10sp"
+        android:layout_marginStart="10sp"
+        android:text="@string/hours_info"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/about_title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/hours_title_text_view"
+        android:layout_marginTop="16sp"
+        android:text="@string/about"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/about_main_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/about_title_text_view"
+        android:layout_below="@id/hours_title_text_view"
+        android:layout_toRightOf="@id/about_title_text_view"
+        android:layout_toEndOf="@id/about_title_text_view"
+        android:layout_marginLeft="10sp"
+        android:layout_marginStart="10sp"
+        android:text="@string/about_info"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/about_title_text_view"
+        android:src="@drawable/spindin" />
+
+</RelativeLayout>
